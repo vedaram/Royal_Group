@@ -1,0 +1,457 @@
+********** 9/12/2016 1:05:33 PM **********
+Inner Exception Type: System.FormatException
+Inner Exception: String was not recognized as a valid DateTime.
+Inner Source: mscorlib
+Inner Stack Trace: 
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value, IFormatProvider provider)
+   at System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Error converting value "" to type 'System.DateTime'. Path 'shiftData[2].fromdate', line 1, position 459.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.Serialization.JsonSerializerProxy.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 319
+
+********** 9/12/2016 1:05:33 PM **********
+Inner Exception Type: System.FormatException
+Inner Exception: String was not recognized as a valid DateTime.
+Inner Source: mscorlib
+Inner Stack Trace: 
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value, IFormatProvider provider)
+   at System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Error converting value "" to type 'System.DateTime'. Path 'shiftData[2].fromdate', line 1, position 459.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.Serialization.JsonSerializerProxy.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 410
+   at employee_data_transaction.addEmployee(String current) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 447
+
+********** 9/12/2016 1:06:06 PM **********
+Inner Exception Type: System.FormatException
+Inner Exception: String was not recognized as a valid DateTime.
+Inner Source: mscorlib
+Inner Stack Trace: 
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value, IFormatProvider provider)
+   at System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Error converting value "" to type 'System.DateTime'. Path 'shiftData[2].fromdate', line 1, position 459.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.Serialization.JsonSerializerProxy.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 319
+
+********** 9/12/2016 1:06:06 PM **********
+Inner Exception Type: System.FormatException
+Inner Exception: String was not recognized as a valid DateTime.
+Inner Source: mscorlib
+Inner Stack Trace: 
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value, IFormatProvider provider)
+   at System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Error converting value "" to type 'System.DateTime'. Path 'shiftData[2].fromdate', line 1, position 459.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.Serialization.JsonSerializerProxy.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 410
+   at employee_data_transaction.addEmployee(String current) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 447
+
+********** 9/12/2016 1:18:48 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'shift_desc' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.Remove(String name)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 344
+
+********** 9/12/2016 1:18:48 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'shift_desc' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.Remove(String name)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 410
+   at employee_data_transaction.addEmployee(String current) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 447
+
+********** 9/12/2016 1:19:09 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'shift_desc' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.Remove(String name)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 344
+
+********** 9/12/2016 1:19:24 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'shift_desc' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.Remove(String name)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 410
+   at employee_data_transaction.addEmployee(String current) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 447
+
+********** 9/12/2016 1:20:16 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'shift_desc' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.Remove(String name)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 344
+
+********** 9/12/2016 1:20:18 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'shift_desc' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.Remove(String name)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 410
+   at employee_data_transaction.addEmployee(String current) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 447
+
+********** 9/12/2016 1:21:35 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'shift_desc' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.Remove(String name)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 344
+
+********** 9/12/2016 1:21:35 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'shift_desc' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.Remove(String name)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 410
+   at employee_data_transaction.addEmployee(String current) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 447
+
+********** 9/12/2016 1:22:04 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'shift_desc' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.Remove(String name)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 344
+
+********** 9/12/2016 1:22:04 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'shift_desc' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.Remove(String name)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 410
+   at employee_data_transaction.addEmployee(String current) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 447
+
+********** 9/12/2016 1:22:06 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'shift_desc' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.Remove(String name)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 344
+
+********** 9/12/2016 1:22:06 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'shift_desc' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.Remove(String name)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 410
+   at employee_data_transaction.addEmployee(String current) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 447
+
+********** 9/12/2016 1:22:46 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'shift_desc' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.Remove(String name)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 344
+
+********** 9/12/2016 1:22:46 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'shift_desc' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.Remove(String name)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 410
+   at employee_data_transaction.addEmployee(String current) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 447
+
+********** 9/12/2016 1:23:49 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'shift_desc' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.Remove(String name)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 344
+
+********** 9/12/2016 1:23:49 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'shift_desc' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.Remove(String name)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 410
+   at employee_data_transaction.addEmployee(String current) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 447
+
+********** 9/12/2016 7:00:04 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'shift_desc' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.Remove(String name)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 344
+
+********** 9/12/2016 7:00:04 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'shift_desc' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.Remove(String name)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 410
+   at employee_data_transaction.addEmployee(String current) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 447
+
+********** 9/12/2016 7:06:17 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'shift_desc' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.Remove(String name)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 344
+
+********** 9/12/2016 7:06:17 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'shift_desc' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.Remove(String name)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 410
+   at employee_data_transaction.addEmployee(String current) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 447
+
+********** 9/12/2016 7:07:18 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'shift_desc' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.Remove(String name)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 345
+
+********** 9/12/2016 7:07:18 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'shift_desc' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.Remove(String name)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 411
+   at employee_data_transaction.addEmployee(String current) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 448
+
+********** 9/12/2016 7:07:57 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'shift_desc' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.Remove(String name)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 345
+
+********** 9/12/2016 7:07:57 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'shift_desc' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.Remove(String name)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 411
+   at employee_data_transaction.addEmployee(String current) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 448
+
+********** 9/12/2016 7:14:24 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'ImagePath' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 347
+
+********** 9/12/2016 7:14:24 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'ImagePath' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 419
+   at employee_data_transaction.addEmployee(String current) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 456
+
+********** 9/12/2016 8:07:09 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'shift_desc' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.Remove(String name)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 350
+
+********** 9/12/2016 8:07:09 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'shift_desc' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.Remove(String name)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 419
+   at employee_data_transaction.addEmployee(String current) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 456
+
+********** 9/12/2016 8:08:11 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'shift_desc' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.Remove(String name)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 350
+
+********** 9/12/2016 8:08:11 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'shift_desc' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.Remove(String name)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 419
+   at employee_data_transaction.addEmployee(String current) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 456
+
+********** 9/12/2016 8:09:09 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'shift_desc' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.Remove(String name)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 350
+
+********** 9/12/2016 8:09:09 PM **********
+Exception Type: System.ArgumentException
+Exception: Column 'shift_desc' does not belong to table shiftData.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.Remove(String name)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 419
+   at employee_data_transaction.addEmployee(String current) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 456
+
+********** 9/12/2016 8:38:02 PM **********
+Exception Type: System.Data.DuplicateNameException
+Exception: A column named 'shift_desc' already belongs to this DataTable.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column, DataTable table)
+   at System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   at System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   at System.Data.DataColumnCollection.Add(String columnName, Type type)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 344
+
+********** 9/12/2016 8:38:02 PM **********
+Exception Type: System.Data.DuplicateNameException
+Exception: A column named 'shift_desc' already belongs to this DataTable.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column, DataTable table)
+   at System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   at System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   at System.Data.DataColumnCollection.Add(String columnName, Type type)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 423
+   at employee_data_transaction.addEmployee(String current) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 460
+

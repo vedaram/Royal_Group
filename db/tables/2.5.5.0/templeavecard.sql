@@ -1,0 +1,1 @@
+  alter table templeavecard add EmployeeCategory varchar(100)

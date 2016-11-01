@@ -1,0 +1,171 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="3.5" InitialTargets="ValidateSolutionConfiguration;ValidateToolsVersions" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_SolutionProjectConfiguration>Debug|Any CPU</_SolutionProjectConfiguration>
+    <_SolutionProjectToolsVersion>3.5</_SolutionProjectToolsVersion>
+    <_SolutionProjectCacheVersion>14.0</_SolutionProjectCacheVersion>
+  </PropertyGroup>
+  <ItemGroup />
+  <UsingTask TaskName="Microsoft.Build.Tasks.CreateTemporaryVCProject" AssemblyName="Microsoft.Build.Tasks.v3.5, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <UsingTask TaskName="Microsoft.Build.Tasks.ResolveVCProjectOutput" AssemblyName="Microsoft.Build.Tasks.v3.5, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <PropertyGroup Condition=" '$(Configuration)' == '' ">
+    <Configuration>Debug</Configuration>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == '' ">
+    <Platform>Any CPU</Platform>
+  </PropertyGroup>
+  <PropertyGroup Condition=" ('$(AspNetConfiguration)' == '') ">
+    <AspNetConfiguration>$(Configuration)</AspNetConfiguration>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SolutionDir>C:\Users\sec4\Desktop\Royal_test\</SolutionDir>
+    <SolutionExt>.sln</SolutionExt>
+    <SolutionFileName>Royal_group.sln</SolutionFileName>
+    <SolutionName>Royal_group</SolutionName>
+    <SolutionPath>C:\Users\sec4\Desktop\Royal_test\Royal_group.sln</SolutionPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFrameworkVersion Condition="'$(TargetFrameworkVersion)' == '' and '$(MSBuildToolsVersion)' == '2.0'">v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion Condition="'$(TargetFrameworkVersion)' == '' and ('$(MSBuildToolsVersion)' == '3.5' or '$(MSBuildToolsVersion)' == '3.0')">v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion Condition="'$(TargetFrameworkVersion)' == '' and '$(MSBuildToolsVersion)' == '4.0'">v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
+    <CurrentSolutionConfigurationContents>
+      <SolutionConfiguration xmlns="">
+        <ProjectConfiguration Project="{0ACE41F1-C79B-4881-9544-088FD52D5152}">Debug|AnyCPU</ProjectConfiguration>
+      </SolutionConfiguration>
+    </CurrentSolutionConfigurationContents>
+  </PropertyGroup>
+  <PropertyGroup Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
+    <CurrentSolutionConfigurationContents>
+      <SolutionConfiguration xmlns="">
+      </SolutionConfiguration>
+    </CurrentSolutionConfigurationContents>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(AspNetConfiguration)' == 'Debug' ">
+    <Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetVirtualPath>/git_RG_Code_01092016</Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetVirtualPath>
+    <Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetPhysicalPath>..\git_RG_Code_01092016\</Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetPhysicalPath>
+    <Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetTargetPath>PrecompiledWeb\git_RG_Code_01092016\</Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetTargetPath>
+    <Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetForce>true</Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetForce>
+    <Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetUpdateable>true</Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetUpdateable>
+    <Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetDebug>True</Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetDebug>
+    <Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetKeyFile>
+    </Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetKeyFile>
+    <Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetKeyContainer>
+    </Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetKeyContainer>
+    <Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetDelaySign>
+    </Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetDelaySign>
+    <Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetAPTCA>
+    </Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetAPTCA>
+    <Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetFixedNames>false</Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetFixedNames>
+    <Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetTargetPath Condition=" '$(OutDir)' != '' ">$(OutDir)_PublishedWebsites\git_RG_Code_01092016\</Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetTargetPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(AspNetConfiguration)' == 'Release' ">
+    <Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetVirtualPath>/git_RG_Code_01092016</Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetVirtualPath>
+    <Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetPhysicalPath>..\git_RG_Code_01092016\</Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetPhysicalPath>
+    <Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetTargetPath>PrecompiledWeb\git_RG_Code_01092016\</Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetTargetPath>
+    <Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetForce>true</Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetForce>
+    <Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetUpdateable>true</Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetUpdateable>
+    <Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetDebug>False</Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetDebug>
+    <Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetKeyFile>
+    </Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetKeyFile>
+    <Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetKeyContainer>
+    </Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetKeyContainer>
+    <Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetDelaySign>
+    </Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetDelaySign>
+    <Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetAPTCA>
+    </Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetAPTCA>
+    <Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetFixedNames>false</Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetFixedNames>
+    <Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetTargetPath Condition=" '$(OutDir)' != '' ">$(OutDir)_PublishedWebsites\git_RG_Code_01092016\</Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetTargetPath>
+  </PropertyGroup>
+  <Target Name="ValidateSolutionConfiguration">
+    <Error Text="The specified solution configuration &quot;$(Configuration)|$(Platform)&quot; is invalid. Please specify a valid solution configuration using the Configuration and Platform properties (e.g. MSBuild.exe Solution.sln /p:Configuration=Debug /p:Platform=&quot;Any CPU&quot;) or leave those properties blank to use the default solution configuration." Code="MSB4126" HelpKeyword="MSBuild.SolutionInvalidSolutionConfiguration" Condition="('$(CurrentSolutionConfigurationContents)' == '') and ('$(SkipInvalidConfigurations)' != 'true')" />
+    <Warning Text="The specified solution configuration &quot;$(Configuration)|$(Platform)&quot; is invalid. Please specify a valid solution configuration using the Configuration and Platform properties (e.g. MSBuild.exe Solution.sln /p:Configuration=Debug /p:Platform=&quot;Any CPU&quot;) or leave those properties blank to use the default solution configuration." Code="MSB4126" HelpKeyword="MSBuild.SolutionInvalidSolutionConfiguration" Condition="('$(CurrentSolutionConfigurationContents)' == '') and ('$(SkipInvalidConfigurations)' == 'true')" />
+    <Message Text="Building solution configuration &quot;$(Configuration)|$(Platform)&quot;." Condition="'$(CurrentSolutionConfigurationContents)' != ''" />
+  </Target>
+  <Target Name="ValidateToolsVersions">
+    <Error Text="The tools version &quot;$(MSBuildToolsVersion)&quot; of the solution does not support building projects with a different tools version." Code="MSB4149" HelpKeyword="MSBuild.SolutionToolsVersionDoesNotSupportProjectToolsVersion" Condition="'$(MSBuildToolsVersion)' == '2.0' and ('$(ProjectToolsVersion)' != '2.0' and '$(ProjectToolsVersion)' != '')" />
+  </Target>
+  <Target Name="GetFrameworkPathAndRedistList">
+    <GetFrameworkPath>
+      <Output TaskParameter="Path" ItemName="_CombinedTargetFrameworkDirectoriesItem" Condition="'$(MSBuildToolsVersion)' == '2.0'" />
+      <Output TaskParameter="FrameworkVersion40Path" ItemName="_CombinedTargetFrameworkDirectoriesItem" Condition=" '$(TargetFrameworkVersion)' == 'v4.0' and '$(MSBuildToolsVersion)' == '4.0'" />
+      <Output TaskParameter="FrameworkVersion35Path" ItemName="_CombinedTargetFrameworkDirectoriesItem" Condition=" ('$(TargetFrameworkVersion)' == 'v3.5' or '$(TargetFrameworkVersion)' == 'v4.0') and '$(MSBuildToolsVersion)' != '2.0'" />
+      <Output TaskParameter="FrameworkVersion30Path" ItemName="_CombinedTargetFrameworkDirectoriesItem" Condition=" ('$(TargetFrameworkVersion)' == 'v3.0' or '$(TargetFrameworkVersion)' == 'v3.5' or '$(TargetFrameworkVersion)' == 'v4.0') and '$(MSBuildToolsVersion)' != '2.0'" />
+      <Output TaskParameter="FrameworkVersion20Path" ItemName="_CombinedTargetFrameworkDirectoriesItem" Condition="'$(MSBuildToolsVersion)' != '2.0'" />
+    </GetFrameworkPath>
+    <CreateItem Include="@(_CombinedTargetFrameworkDirectoriesItem->'%(Identity)\RedistList\*.xml')">
+      <Output TaskParameter="Include" ItemName="InstalledAssemblyTables" />
+    </CreateItem>
+  </Target>
+  <Target Name="git_RG_Code_01092016" DependsOnTargets=";GetFrameworkPathAndRedistList" Condition=" ('$(CurrentSolutionConfigurationContents)' != '') and (false or ( ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ) or ( ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') )) ">
+    <CreateItem Include="$(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetPhysicalPath)\Bin\*.refresh">
+      <Output TaskParameter="Include" ItemName="Project_0ACE41F1-C79B-4881-9544-088FD52D5152_References_RefreshFile" />
+    </CreateItem>
+    <ReadLinesFromFile File="%(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_References_RefreshFile.Identity)" Condition=" '%(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_References_RefreshFile.Identity)' != '' ">
+      <Output TaskParameter="Lines" ItemName="Project_0ACE41F1-C79B-4881-9544-088FD52D5152_References_ReferenceRelPath" />
+    </ReadLinesFromFile>
+    <CombinePath BasePath="$(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetPhysicalPath)" Paths="@(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_References_ReferenceRelPath)">
+      <Output TaskParameter="CombinedPaths" ItemName="Project_0ACE41F1-C79B-4881-9544-088FD52D5152_References" />
+    </CombinePath>
+    <Copy SourceFiles="@(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_References->'%(FullPath)')" DestinationFolder="$(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetPhysicalPath)\Bin\" Condition="!Exists('%(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_References.Identity)')" ContinueOnError="true" />
+    <ResolveAssemblyReference Assemblies="@(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_References->'%(FullPath)')" TargetFrameworkDirectories="@(_CombinedTargetFrameworkDirectoriesItem)" InstalledAssemblyTables="@(InstalledAssemblyTables)" SearchPaths="{RawFileName};{TargetFrameworkDirectory};{GAC}" FindDependencies="true" FindSatellites="true" FindSerializationAssemblies="true" FindRelatedFiles="true" Condition="Exists('%(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_References.Identity)')">
+      <Output TaskParameter="CopyLocalFiles" ItemName="Project_0ACE41F1-C79B-4881-9544-088FD52D5152_References_CopyLocalFiles" />
+    </ResolveAssemblyReference>
+    <Copy SourceFiles="@(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_References_CopyLocalFiles)" DestinationFiles="@(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_References_CopyLocalFiles->'$(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetPhysicalPath)\Bin\%(DestinationSubDirectory)%(Filename)%(Extension)')" Condition="(false) or ('$(AspNetConfiguration)' == 'Debug') or ('$(AspNetConfiguration)' == 'Release')" />
+    <AspNetCompiler VirtualPath="$(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetVirtualPath)" PhysicalPath="$(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetPhysicalPath)" TargetPath="$(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetTargetPath)" Force="$(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetForce)" Updateable="$(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetUpdateable)" Debug="$(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetDebug)" KeyFile="$(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetKeyFile)" KeyContainer="$(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetKeyContainer)" DelaySign="$(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetDelaySign)" AllowPartiallyTrustedCallers="$(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetAPTCA)" FixedNames="$(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetFixedNames)" Condition="(false) or ('$(AspNetConfiguration)' == 'Debug') or ('$(AspNetConfiguration)' == 'Release')" />
+    <Message Text="Skipping because the &quot;$(AspNetConfiguration)&quot; configuration is not supported for this web project.  You can use the AspNetConfiguration property to override the configuration used for building web projects, by adding /p:AspNetConfiguration=&lt;value&gt; to the command line. Currently web projects only support Debug and Release configurations." Condition="!((false) or ('$(AspNetConfiguration)' == 'Debug') or ('$(AspNetConfiguration)' == 'Release'))" />
+  </Target>
+  <Target Name="git_RG_Code_01092016:Clean" DependsOnTargets=";GetFrameworkPathAndRedistList">
+    <Message Text="Web projects do not support the &quot;Clean&quot; target.  Continuing with remaining projects ..." />
+  </Target>
+  <Target Name="git_RG_Code_01092016:Rebuild" DependsOnTargets=";GetFrameworkPathAndRedistList" Condition=" ('$(CurrentSolutionConfigurationContents)' != '') and (false or ( ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ) or ( ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') )) ">
+    <CreateItem Include="$(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetPhysicalPath)\Bin\*.refresh">
+      <Output TaskParameter="Include" ItemName="Project_0ACE41F1-C79B-4881-9544-088FD52D5152_References_Rebuild_RefreshFile" />
+    </CreateItem>
+    <ReadLinesFromFile File="%(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_References_Rebuild_RefreshFile.Identity)" Condition=" '%(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_References_Rebuild_RefreshFile.Identity)' != '' ">
+      <Output TaskParameter="Lines" ItemName="Project_0ACE41F1-C79B-4881-9544-088FD52D5152_References_Rebuild_ReferenceRelPath" />
+    </ReadLinesFromFile>
+    <CombinePath BasePath="$(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetPhysicalPath)" Paths="@(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_References_Rebuild_ReferenceRelPath)">
+      <Output TaskParameter="CombinedPaths" ItemName="Project_0ACE41F1-C79B-4881-9544-088FD52D5152_References_Rebuild" />
+    </CombinePath>
+    <Copy SourceFiles="@(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_References_Rebuild->'%(FullPath)')" DestinationFolder="$(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetPhysicalPath)\Bin\" Condition="!Exists('%(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_References_Rebuild.Identity)')" ContinueOnError="true" />
+    <ResolveAssemblyReference Assemblies="@(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_References_Rebuild->'%(FullPath)')" TargetFrameworkDirectories="@(_CombinedTargetFrameworkDirectoriesItem)" InstalledAssemblyTables="@(InstalledAssemblyTables)" SearchPaths="{RawFileName};{TargetFrameworkDirectory};{GAC}" FindDependencies="true" FindSatellites="true" FindSerializationAssemblies="true" FindRelatedFiles="true" Condition="Exists('%(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_References_Rebuild.Identity)')">
+      <Output TaskParameter="CopyLocalFiles" ItemName="Project_0ACE41F1-C79B-4881-9544-088FD52D5152_References_Rebuild_CopyLocalFiles" />
+    </ResolveAssemblyReference>
+    <Copy SourceFiles="@(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_References_Rebuild_CopyLocalFiles)" DestinationFiles="@(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_References_Rebuild_CopyLocalFiles->'$(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetPhysicalPath)\Bin\%(DestinationSubDirectory)%(Filename)%(Extension)')" Condition="(false) or ('$(AspNetConfiguration)' == 'Debug') or ('$(AspNetConfiguration)' == 'Release')" />
+    <AspNetCompiler VirtualPath="$(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetVirtualPath)" PhysicalPath="$(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetPhysicalPath)" TargetPath="$(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetTargetPath)" Force="$(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetForce)" Updateable="$(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetUpdateable)" Debug="$(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetDebug)" KeyFile="$(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetKeyFile)" KeyContainer="$(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetKeyContainer)" DelaySign="$(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetDelaySign)" AllowPartiallyTrustedCallers="$(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetAPTCA)" FixedNames="$(Project_0ACE41F1-C79B-4881-9544-088FD52D5152_AspNetFixedNames)" Condition="(false) or ('$(AspNetConfiguration)' == 'Debug') or ('$(AspNetConfiguration)' == 'Release')" />
+    <Message Text="Skipping because the &quot;$(AspNetConfiguration)&quot; configuration is not supported for this web project.  You can use the AspNetConfiguration property to override the configuration used for building web projects, by adding /p:AspNetConfiguration=&lt;value&gt; to the command line. Currently web projects only support Debug and Release configurations." Condition="!((false) or ('$(AspNetConfiguration)' == 'Debug') or ('$(AspNetConfiguration)' == 'Release'))" />
+  </Target>
+  <Target Name="git_RG_Code_01092016:Publish" DependsOnTargets=";GetFrameworkPathAndRedistList">
+    <Message Text="Web projects do not support the &quot;Publish&quot; target.  Continuing with remaining projects ..." />
+  </Target>
+  <Target Name="Build" Condition="'$(CurrentSolutionConfigurationContents)' != ''" Outputs="@(CollectedBuildOutput)">
+    <MSBuild Condition="@(BuildLevel0) != ''" Projects="@(BuildLevel0)" Properties="Configuration=%(Configuration); Platform=%(Platform); BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="true" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)">
+      <Output TaskParameter="TargetOutputs" ItemName="CollectedBuildOutput" />
+    </MSBuild>
+    <Message Text="The project &quot;%(SkipLevel0.Identity)&quot; is not selected for building in solution configuration &quot;$(Configuration)|$(Platform)&quot;." Condition="@(SkipLevel0) != ''" />
+    <Warning Text="The project configuration for project &quot;%(MissingConfigLevel0.Identity)&quot; was not specified in the solution file for the solution configuration &quot;$(Configuration)|$(Platform)&quot;." Code="MSB4121" HelpKeyword="MSBuild.SolutionProjectConfigurationMissing" Condition="@(MissingConfigLevel0) != ''" />
+    <CallTarget Targets="git_RG_Code_01092016" RunEachTargetSeparately="true" />
+  </Target>
+  <Target Name="Clean" Condition="'$(CurrentSolutionConfigurationContents)' != ''">
+    <MSBuild Condition="@(BuildLevel0) != ''" Projects="@(BuildLevel0)" Properties="Configuration=%(Configuration); Platform=%(Platform); BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Clean" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="true" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" />
+    <Message Text="The project &quot;%(SkipLevel0.Identity)&quot; is not selected for building in solution configuration &quot;$(Configuration)|$(Platform)&quot;." Condition="@(SkipLevel0) != ''" />
+    <Warning Text="The project configuration for project &quot;%(MissingConfigLevel0.Identity)&quot; was not specified in the solution file for the solution configuration &quot;$(Configuration)|$(Platform)&quot;." Code="MSB4121" HelpKeyword="MSBuild.SolutionProjectConfigurationMissing" Condition="@(MissingConfigLevel0) != ''" />
+    <CallTarget Targets="git_RG_Code_01092016:Clean" RunEachTargetSeparately="true" />
+    <Delete Files="Royal_group.sln.cache" />
+  </Target>
+  <Target Name="Rebuild" Condition="'$(CurrentSolutionConfigurationContents)' != ''" Outputs="@(CollectedBuildOutput)">
+    <MSBuild Condition="@(BuildLevel0) != ''" Projects="@(BuildLevel0)" Properties="Configuration=%(Configuration); Platform=%(Platform); BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Rebuild" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="true" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)">
+      <Output TaskParameter="TargetOutputs" ItemName="CollectedBuildOutput" />
+    </MSBuild>
+    <Message Text="The project &quot;%(SkipLevel0.Identity)&quot; is not selected for building in solution configuration &quot;$(Configuration)|$(Platform)&quot;." Condition="@(SkipLevel0) != ''" />
+    <Warning Text="The project configuration for project &quot;%(MissingConfigLevel0.Identity)&quot; was not specified in the solution file for the solution configuration &quot;$(Configuration)|$(Platform)&quot;." Code="MSB4121" HelpKeyword="MSBuild.SolutionProjectConfigurationMissing" Condition="@(MissingConfigLevel0) != ''" />
+    <CallTarget Targets="git_RG_Code_01092016:Rebuild" RunEachTargetSeparately="true" />
+  </Target>
+  <Target Name="Publish" Condition="'$(CurrentSolutionConfigurationContents)' != ''">
+    <MSBuild Condition="@(BuildLevel0) != ''" Projects="@(BuildLevel0)" Properties="Configuration=%(Configuration); Platform=%(Platform); BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Publish" ToolsVersion="$(ProjectToolsVersion)" BuildInParallel="true" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" />
+    <Message Text="The project &quot;%(SkipLevel0.Identity)&quot; is not selected for building in solution configuration &quot;$(Configuration)|$(Platform)&quot;." Condition="@(SkipLevel0) != ''" />
+    <Warning Text="The project configuration for project &quot;%(MissingConfigLevel0.Identity)&quot; was not specified in the solution file for the solution configuration &quot;$(Configuration)|$(Platform)&quot;." Code="MSB4121" HelpKeyword="MSBuild.SolutionProjectConfigurationMissing" Condition="@(MissingConfigLevel0) != ''" />
+    <CallTarget Targets="git_RG_Code_01092016:Publish" RunEachTargetSeparately="true" />
+  </Target>
+</Project>

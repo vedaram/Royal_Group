@@ -1,0 +1,142 @@
+********** 9/13/2016 1:35:55 PM **********
+Exception Type: System.IndexOutOfRangeException
+Exception: There is no row at position 0.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 321
+
+********** 9/13/2016 1:35:55 PM **********
+Exception Type: System.IndexOutOfRangeException
+Exception: There is no row at position 0.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 427
+   at employee_data_transaction.addEmployee(String current) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 464
+
+********** 9/13/2016 1:36:26 PM **********
+Exception Type: System.IndexOutOfRangeException
+Exception: There is no row at position 0.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 321
+
+********** 9/13/2016 1:36:26 PM **********
+Exception Type: System.IndexOutOfRangeException
+Exception: There is no row at position 0.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 427
+   at employee_data_transaction.addEmployee(String current) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 464
+
+********** 9/13/2016 1:38:03 PM **********
+Exception Type: System.IndexOutOfRangeException
+Exception: There is no row at position 0.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 321
+
+********** 9/13/2016 1:38:03 PM **********
+Exception Type: System.IndexOutOfRangeException
+Exception: There is no row at position 0.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 427
+   at employee_data_transaction.addEmployee(String current) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 464
+
+********** 9/13/2016 2:35:58 PM **********
+Exception Type: System.IO.DirectoryNotFoundException
+Exception: Could not find a part of the path 'D:\SecurAX Projects\RG\employee_transaction.xlsx'.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: DO_IMPORT
+Stack Trace: 
+   at SecurAX.Import.Excel.ExcelImport.ImportExcelToDataTable(String file_name, String sheet_name) in h:\RG Final\Royal_group\app_code\ExcelImport.cs:line 69
+   at employee_data_transaction.DoImport(String file_name) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 1082
+
+********** 9/13/2016 2:38:09 PM **********
+Exception Type: System.IndexOutOfRangeException
+Exception: There is no row at position 0.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 321
+
+********** 9/13/2016 2:38:09 PM **********
+Exception Type: System.IndexOutOfRangeException
+Exception: There is no row at position 0.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 427
+   at employee_data_transaction.addEmployee(String current) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 464
+
+********** 9/13/2016 2:39:06 PM **********
+Exception Type: System.IndexOutOfRangeException
+Exception: There is no row at position 0.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 321
+
+********** 9/13/2016 2:39:06 PM **********
+Exception Type: System.IndexOutOfRangeException
+Exception: There is no row at position 0.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at employee_data_transaction.saveEmployeeTransactionData(String returndataset) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 427
+   at employee_data_transaction.addEmployee(String current) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 464
+
+********** 9/13/2016 2:44:44 PM **********
+Exception Type: System.IO.DirectoryNotFoundException
+Exception: Could not find a part of the path 'D:\SecurAX Projects\RG\employee_transaction.xlsx'.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: DO_IMPORT
+Stack Trace: 
+   at SecurAX.Import.Excel.ExcelImport.ImportExcelToDataTable(String file_name, String sheet_name) in h:\RG Final\Royal_group\app_code\ExcelImport.cs:line 69
+   at employee_data_transaction.DoImport(String file_name) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 1082
+
+********** 9/13/2016 2:45:48 PM **********
+Exception Type: System.IO.DirectoryNotFoundException
+Exception: Could not find a part of the path 'D:\SecurAX Projects\RG\employee_transaction.xlsx'.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: DO_IMPORT
+Stack Trace: 
+   at SecurAX.Import.Excel.ExcelImport.ImportExcelToDataTable(String file_name, String sheet_name) in h:\RG Final\Royal_group\app_code\ExcelImport.cs:line 69
+   at employee_data_transaction.DoImport(String file_name) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 1082
+

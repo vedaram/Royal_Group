@@ -1,2 +1,1 @@
-# Royal_Group
-This is for to test
+This project contains the code base for SecurTime Web 2.5

@@ -1,0 +1,1 @@
+alter table dailyperformancereport1 add  deductleaveflag int

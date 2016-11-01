@@ -1,0 +1,1 @@
+alter table leavemaster add Status varchar(20)

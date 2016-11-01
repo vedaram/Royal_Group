@@ -1,0 +1,108 @@
+********** 9/12/2016 3:19:29 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: PAGE_LOAD
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at employee_data_transaction.Page_Load(Object sender, EventArgs e) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 44
+
+********** 9/12/2016 5:24:30 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: PAGE_LOAD
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at employee_data_transaction.Page_Load(Object sender, EventArgs e) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 44
+
+********** 9/12/2016 6:40:27 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: PAGE_LOAD
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at employee_data_transaction.Page_Load(Object sender, EventArgs e) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 44
+
+********** 9/12/2016 6:46:28 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: PAGE_LOAD
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at employee_data_transaction.Page_Load(Object sender, EventArgs e) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 44
+
+********** 9/12/2016 6:54:23 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: PAGE_LOAD
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at employee_data_transaction.Page_Load(Object sender, EventArgs e) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 44
+
+********** 9/12/2016 8:05:42 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: PAGE_LOAD
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at employee_data_transaction.Page_Load(Object sender, EventArgs e) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 44
+
+********** 9/12/2016 8:13:59 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: PAGE_LOAD
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at employee_data_transaction.Page_Load(Object sender, EventArgs e) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 44
+
+********** 9/12/2016 8:36:06 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: PAGE_LOAD
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at employee_data_transaction.Page_Load(Object sender, EventArgs e) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 44
+
+********** 9/12/2016 8:45:33 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: PAGE_LOAD
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at employee_data_transaction.Page_Load(Object sender, EventArgs e) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 44
+

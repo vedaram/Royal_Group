@@ -1,0 +1,1 @@
+Error logs will for each user will be contained in this folder.

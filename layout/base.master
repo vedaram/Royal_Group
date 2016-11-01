@@ -1,0 +1,694 @@
+﻿﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="base.master.cs" Inherits="layout_base" %>
+<!DOCTYPE html>
+<html>
+	<head id="Head1" runat="server">
+		<link rel="ICON" href=<%= ResolveUrl("~/resources/images/favicon.png") %>>
+        <!-- page title -->
+        <title>Base | SecurTime</title>
+        <!-- normalize.css -->
+        <link rel="stylesheet" href=<%= ResolveUrl("~/resources/css/normalize.css") %>>
+        <!-- critical CSS -->
+        <style type="text/css">
+            * {
+                box-sizing: border-box;
+            }
+            html,
+            body {
+                height: 100%;
+            }
+            body {
+            	background: #fcfcfc;
+                color: #4d4d4d;
+                font-size: 13px;
+                font-weight: 300;
+                font-family: arial, sans-serif;
+                letter-spacing: 0.5px;
+                padding: 0;
+                margin: 0;
+                overflow: hidden;
+            }
+            small {
+                font-size: 11px !important;
+            }
+            a {
+                color: #3498db;
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            h1, h2, h3, h4, h5, h6 {
+                padding: 0;
+                margin: 0;
+            }
+            p {
+                margin: 0;
+                padding: 0;
+            }
+            ul {
+            	list-style-type: none;
+            	padding: 0;
+            	margin: 0;
+            }
+            .pull-left {
+            	float: left;
+            }
+            .pull-right {
+            	float: right;
+            }
+
+            .hide {
+            	display: none!important;
+            }
+
+            .container::before,
+            .container::after {
+            	display: table;
+            	content: '';
+            }
+            .container::after {
+            	clear: both;
+            }
+
+            /* sidebar */
+            #saxPageSidebar {
+            	position: absolute;
+            	top: 90px;
+            	bottom: 0px;
+            	left: 0px;
+            	width: 160px;
+            	padding: 0px 15px;
+            	border-top: 1px solid #eee;
+            }
+            	.brand {
+            		padding: 3px 0; 
+            		height: 35px;
+            	}
+				
+				.brand img
+              {
+               width:80px;
+               height:30px;
+              }
+            		.logo {
+            			display: block;
+            			width: 80px;
+            			margin: 0 auto;
+            		}
+
+    		/* header */
+    		#saxPageHeader {
+    			background: #2980b9;
+    			border-bottom: 1px solid #2980b9;
+    			padding: 0 15px;
+    			height: 35px;
+    			font-size: 12px;
+    		}
+    			.header-menu {
+    				line-height: 35px;
+    				color: #fff;
+    				font-size: 12px;
+    			}
+    				.header-menu li {
+    					float: right;
+    					margin-left: 20px;
+    				}
+    					.header-menu li a {
+    						color: #fff;
+    					}
+			.profile-pic {
+				width: 26px;
+				line-height: 30px;
+				vertical-align: middle;
+			}
+			#username {
+				padding-left: 5px;
+			}
+
+			#saxPageTitleBar {
+				position: absolute;
+				top: 35px;
+				left: 0px;
+				right: 0px;
+				height: 55px;
+				border-top: 1px solid #fff;
+				border-bottom: 1px solid #ddd;
+				border-left: 1px solid #fff;
+				background: #fafafa;
+				padding: 5px 15px;
+			}	
+				.current-page-outer {
+					margin: 10px 0;
+				}
+					.current-section {
+						letter-spacing: 1.0px;
+						padding-bottom: 5px;
+					}
+					.current-page {
+						font-size: 20px;
+						font-weight: bold;
+					}
+
+			#saxPageContent {
+				position: absolute;
+				top: 90px;
+				bottom: 0px;
+				left: 160px;
+				right: 0px;
+				border-top: 1px solid #eee;
+				overflow-x: hidden;
+				overflow-y: auto;
+			}
+				#saxPageContent .content {
+					padding: 40px 15px 0;
+				}
+       	</style>
+       	<!-- sessvars -->
+       	<script type="text/javascript" src='<%= ResolveUrl("~/resources/lib/sessvars.js") %>'></script>
+       	<!-- font awesome CSS -->
+		<link rel="stylesheet" href=<%= ResolveUrl("~/resources/font-awesome/css/font-awesome.min.css") %>>
+		<!-- menu styling -->
+		<style type="text/css">
+			/* menu */
+			.sidebar {
+				margin-top: 55px;
+			}
+			.sidebar > .menu {
+				color: #aaa;
+				z-index: 5;
+			}
+				.menu li {
+					padding: 15px 5px;
+				}
+					.menu li:first-child {
+						border-top: none;
+					}
+					.menu li:last-child {
+						border-bottom: none;
+					}
+				.menu li a {
+					color: #7c7c7c;
+				}
+					.menu li:hover {
+						text-decoration: none;
+						color: #2980b9;
+					}
+						.menu li:hover a {
+							color: #2980b9;
+							text-decoration: none;
+						}
+			.menu-icon {
+				font-size: 16px;
+				width: 22px;
+			}
+			.menu-text {
+				padding-top: 5px;
+				font-size: 11px;
+			}
+				.menu-popout {
+					display: none;
+					position: absolute;
+					top: 0px;
+					left: 45px;
+					bottom: 0px;
+					width: 260px;
+					background: #fff;
+					z-index: 6;
+					padding-top: 50px;
+					overflow-y: auto;
+					border-right: 1px solid #dae1e8;
+					border-left: 1px solid #dae1e8;
+				}
+					.menu li:hover .menu-popout {
+						display: block;
+					}
+		</style>
+       	<!-- other stylesheets -->
+		<link rel="stylesheet" href=<%= ResolveUrl("~/resources/css/style.css") %>>
+		<script type="text/javascript" src='<%= ResolveUrl("~/resources/lib/jquery.min.js") %>'></script>
+	</head>
+
+	<body>
+		<header id="saxPageHeader">
+			<div class="container">
+				<div class="pull-left">
+					<div class="brand">
+						
+						<img src='<%= Session["company_logo"].ToString() %>' alt="SecurAX" class="logo">
+					</div>
+					<!-- /.brand -->
+				</div>
+				<!-- /.pull-left -->
+				<div class="pull-right">
+					<ul class="header-menu">
+						<li>	
+							<a href='<%= ResolveUrl("~/logout.aspx") %>'>
+								<span class="fa fa-sign-out"></span> Sign Out
+							</a>
+						</li>
+						<li>	
+							<a href='<%= ResolveUrl("~/ui/profile/update.aspx") %>'>
+								<span class="fa fa-key"></span> Change Password
+							</a>
+						</li>
+						<li>	
+							<img src='<%= Session["display_picture"].ToString() %>' class="profile-pic"/>
+    						<span id="username"><%= Session["display_name"].ToString() %> (<%= Session["display_name"] %>)</span>
+						</li>
+					</ul>
+				</div>
+				<!-- /.pull-right -->
+			</div>
+			<!-- /.container -->
+		</header>
+		<!-- /#saxPageHeader -->
+		<section id="saxPage">
+			<section id="saxPageSidebar">
+				<div class="sidebar">
+					<ul class="menu" style="display: none;">
+						<li>
+							<a href='<%= ResolveUrl("~/ui/profile/home.aspx") %>'>
+								<p class="menu-text"><span class="fa fa-home menu-icon"></span> HOME</p>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);">
+								<p class="menu-text"><span class="fa fa-cog menu-icon"></span> DEVICE</p>
+							</a>
+							<!-- BEGIN SUB MENU -->
+								<div class="menu-popout">
+									<h4 class="menu-heading">DEVICE MANAGEMENT</h4>
+									<ul class="menu">
+										<li>
+										<%--	<a href="http://52.38.144.19:8080/pushdemo">Device Management</a>--%>
+										<a>Device Management</a>
+										</li>
+									</ul>
+									<!-- /.menu-->
+									<h4 class="menu-heading">GPRS DEVICE MANAGEMENT</h4>
+									<ul class="menu">
+										<li>
+											<a href='<%= ResolveUrl("~/ui/device/gprs/information.aspx") %>'>Device Information</a>
+										</li>
+										<li>
+											<a href='<%= ResolveUrl("~/ui/device/gprs/upload.aspx") %>'>Template Upload</a>
+										</li>
+										<li>
+											<a href='<%= ResolveUrl("~/ui/device/gprs/upload_status.aspx") %>'>Template Upload Status</a>
+										</li>
+									</ul>
+									<!-- /.menu -->
+									<h4 class="menu-heading">LAN DEVICE MANAGEMENT</h4>
+									<ul class="menu">
+										<li>
+											<a href='<%= ResolveUrl("~/ui/device/lan/information.aspx") %>'>Device Information</a>
+										</li>
+										<li>
+											<a href='<%= ResolveUrl("~/ui/device/lan/enroll.aspx") %>'>Enroll Card</a>
+										</li>
+										<li>
+											<a href='<%= ResolveUrl("~/ui/device/lan/upload.aspx") %>'>Template Upload</a>
+										</li>
+										<li>
+											<a href='<%= ResolveUrl("~/ui/device/lan/download.aspx") %>'>Template Download</a>
+										</li>
+									</ul>
+									<!-- /.menu -->
+								</div>
+							<!-- END OF SUB MENU -->
+						</li>
+						<li>
+							<a href="javascript:void(0);">
+								<p class="menu-text"><span class="fa fa-building-o menu-icon"></span> COMPANY</p>
+							</a>
+							<!-- BEGIN SUB MENU -->
+								<div class="menu-popout">
+									<h4 class="menu-heading">MASTERS</h4>
+									<ul class="menu">
+										<li id="company-master-menu-item">
+											<a href='<%= ResolveUrl("~/ui/company/masters/company.aspx") %>'>Company Master</a>
+										</li>
+										<li id="holiday-group-master-menu-item">
+											<a href='<%= ResolveUrl("~/ui/company/masters/holiday_group_master.aspx") %>'>Holiday Group Master</a>
+										</li>
+										<li id="holiday-master-menu-item">
+											<a href='<%= ResolveUrl("~/ui/company/masters/holiday.aspx") %>'>Holiday Master</a>
+										</li>
+										<li id="holiday-list-menu-item">
+											<a href='<%= ResolveUrl("~/ui/company/masters/holiday_list.aspx") %>'>Holiday List</a>
+										</li>
+										<li id="branch-master-menu-item">
+											<a href='<%= ResolveUrl("~/ui/company/masters/branch.aspx") %>'>Branch Master</a>
+										</li>
+										<li id="department-master-menu-item">
+											<a href='<%= ResolveUrl("~/ui/company/masters/department.aspx") %>'>Department Master</a>
+										</li>
+										<li id="designation-master-menu-item">
+											<a href='<%= ResolveUrl("~/ui/company/masters/designation.aspx") %>'>Designation Master</a>
+										</li>
+										<li id="employee-category">
+											<a href='<%= ResolveUrl("~/ui/company/masters/employee_category.aspx") %>'>Employee Category</a>
+										</li>
+										<li id="leaveMaster">
+											<a href='<%= ResolveUrl("~/ui/company/masters/leave.aspx") %>'>Leave Master</a>
+										</li>
+										<li id="shiftMaster">
+											<a href='<%= ResolveUrl("~/ui/company/masters/shift.aspx") %>'>Shift Master</a>
+										</li>
+										<li id="employeeMaster">
+											<a href='<%= ResolveUrl("~/ui/company/masters/employee.aspx") %>'>Employee Master</a>
+										</li>
+										<li id="ot-eligibility-master-menu-item">
+											<a href='<%= ResolveUrl("~/ui/company/masters/ot_eligibility.aspx") %>'>OT Eligibility Master</a>
+										</li>
+										<li id="change-manager-master-menu-item">
+											<a href='<%= ResolveUrl("~/ui/company/masters/change_manager.aspx") %>'>Change Manager</a>
+										</li>
+										<li id="delegation-assignment-menu-item">
+											<a href='<%= ResolveUrl("~/ui/company/masters/delegation_assignment.aspx") %>'>Delegation Assignment</a>
+										</li>
+										<li id="branch-mapping-to-hr-menu-item">
+											<a href='<%= ResolveUrl("~/ui/company/masters/branch_mapping.aspx") %>'>Branch Mapping to HR</a>
+										</li>
+									</ul>
+									<!-- /.menu -->
+									<h4 class="menu-heading"> CONFIGURATION</h4>
+									<ul class="menu">
+										<li id="shift-settings-menu-item">
+											<a href='<%= ResolveUrl("~/ui/company/configuration/shift_setting.aspx") %>'>Shift Setting</a>
+										</li>										
+										<li id="change-company-logo-menu-item">
+										    <a href='<%= ResolveUrl("~/ui/company/configuration/change_company_logo.aspx") %>'>Change Company Logo</a>
+								        </li>
+								        <li id="ramadan-history-menu-item">
+									    	<a href='<%= ResolveUrl("~/ui/company/configuration/ramadan_history.aspx") %>'>Ramadan History</a>
+								        </li>										
+									</ul>
+								</div>
+							<!-- END OF SUB MENU -->
+						</li>
+						<li>
+							<a href="javascript:void(0);">
+								<p class="menu-text"><span class="fa fa-check menu-icon"></span> ATTENDANCE</p>
+							</a>
+							<!-- BEGIN SUB MENU -->
+								<div class="menu-popout">
+									<ul class="menu">
+										<li>
+											<a href='<%= ResolveUrl("~/ui/attendance/process_data.aspx") %>'>Process Data</a>
+										</li>
+										<li>
+											<a href='<%= ResolveUrl("~/ui/attendance/usb_download.aspx") %>'>USB Download</a>
+										</li>
+										<li>
+											<a href='<%= ResolveUrl("~/ui/attendance/unprocessed_data.aspx") %>'>Unprocessed Data</a>
+										</li>
+										<li>
+											<a href='<%= ResolveUrl("~/ui/attendance/reprocess.aspx") %>'>Reprocess</a>
+										</li>
+									</ul>
+									<!-- /.menu -->
+								</div>
+							<!-- END OF SUB MENU -->
+						</li>
+						<li>
+							<a href="javascript:void(0);">
+								<p class="menu-text"><span class="fa fa-exchange menu-icon"></span> TRANSACTION</p>
+							</a>
+							<!-- BEGIN SUB MENU -->
+								<div class="menu-popout">
+									<h4 class="menu-heading">LEAVE MANAGEMENT</h4>
+									<ul class="menu">
+										<li id="leaveAvailable">
+								            <a href='<%= ResolveUrl("~/ui/transaction/leave/available.aspx") %>'>Leave Available</a>
+										</li>
+										<li id="leaveApplication">
+											<a href='<%= ResolveUrl("~/ui/transaction/leave/apply.aspx") %>'>Leave Application</a>
+										</li>
+										<li id="leaveApproval">
+											<a href='<%= ResolveUrl("~/ui/transaction/leave/approve.aspx") %>'>Leave Approval</a>
+										</li>
+										<li id="leaveDetail">
+											<a href='<%= ResolveUrl("~/ui/transaction/leave/details.aspx") %>'>Leave Details</a>
+										</li>
+										<li id="odLeaveApplication">
+											<a href='<%= ResolveUrl("~/ui/transaction/od/apply.aspx") %>'>OD Leave Application</a>
+										</li>
+										<li id="odLeaveApproval">
+											<a href='<%= ResolveUrl("~/ui/transaction/od/approve.aspx") %>'>OD Leave Approval</a>
+										</li>
+										<li id="odLeaveDetails">
+											<a href='<%= ResolveUrl("~/ui/transaction/od/details.aspx") %>'>OD Leave Details</a>
+										</li>
+										<li id="leaveAssign">
+											<a href='<%= ResolveUrl("~/ui/transaction/leave/assign.aspx") %>'>Leave Assign</a>
+										</li>
+									</ul>
+									<!-- /.menu -->
+									<h4 class="menu-heading">MANUAL PUNCH</h4>
+									<ul class="menu">
+										<li id="manualPunch">
+								        	<a href='<%= ResolveUrl("~/ui/transaction/manual/apply.aspx") %>'>Manual Punch</a>
+							        	</li>
+								        <li id="manualPunchDetails">
+								        	<a href='<%= ResolveUrl("~/ui/transaction/manual/details.aspx") %>'>Manual Punch Details</a>
+							        	</li>
+								        <li id="manualPunchApproval">
+								        	<a href='<%= ResolveUrl("~/ui/transaction/manual/approve.aspx") %>'>Manual Punch Approval</a>
+							        	</li>
+									</ul>
+									<!-- /.menu -->
+									<h4 class="menu-heading">OVERTIME</h4>
+									<ul class="menu">
+										<li id="overtimeApplication">
+								        	<a href='<%= ResolveUrl("~/ui/transaction/overtime/apply.aspx") %>'>Overtime Application</a>
+							        	</li>
+								        <li id="overtimeDetails">
+								        	<a href='<%= ResolveUrl("~/ui/transaction/overtime/details.aspx") %>'>Overtime Details</a>
+							        	</li>
+								        <li id="overtimeApproval">
+								        	<a href='<%= ResolveUrl("~/ui/transaction/overtime/approve.aspx") %>'>Overtime Approval</a>
+							        	</li>
+							        </ul>
+							        <!-- /.menu -->
+							        <h4 class="menu-heading">COMPENSATORY OFF</h4>
+							        <ul class="menu">
+							        	<li id="applyCompOff">
+								        	<a href='<%= ResolveUrl("~/ui/transaction/compoff/apply.aspx") %>'>Comp Off Application</a>
+							        	</li>
+								        <li id="approveCompOff">
+								        	<a href='<%= ResolveUrl("~/ui/transaction/compoff/approve.aspx") %>'>Comp Off Approval</a>
+							        	</li>
+							        	<li id="detailsCompOff">
+								        	<a href='<%= ResolveUrl("~/ui/transaction/compoff/details.aspx") %>'>Comp Off Details</a>
+							        	</li>
+							        	<li id="compOffValidity">
+								        	<a href='<%= ResolveUrl("~/ui/transaction/compoff/validity.aspx") %>'>Comp Off Validity</a>
+							        	</li>
+							        </ul>
+							        <!-- /.menu -->
+							        <h4 class="menu-heading">SHIFT ROSTER</h4>
+							        <ul class="menu">
+							        	<li id="shiftRoster">
+											<a href='<%= ResolveUrl("~/ui/transaction/shift/roster.aspx") %>'>Shift Roster</a>
+										</li>
+										<li id="shiftRosterImport">
+											<a href='<%= ResolveUrl("~/ui/transaction/shift/import.aspx") %>'>Shift Roster Import</a>
+										</li>
+							        </ul>
+							        <!-- /.menu -->
+
+                                     <h4 class="menu-heading">OUT OF OFFICE</h4>
+                              <ul class="menu">
+                              <li id="oooapply">
+                                <a href='<%= ResolveUrl("~/ui/transaction/outofoffice/apply.aspx") %>'>OOO Application</a>
+                                </li>
+                             <li id="oooapprove">
+                             <a href='<%= ResolveUrl("~/ui/transaction/outofoffice/approve.aspx") %>'>OOO Approval</a>
+                               </li>
+                             <li id="ooodetails">
+                          <a href='<%= ResolveUrl("~/ui/transaction/outofoffice/details.aspx") %>'>OOO Details</a>
+                                  </li>
+                                   </ul>
+               <!-- /.menu -->
+							        
+							        <h4 style="display:none" class="menu-heading">EMPLOYEE TRANSACTION</h4>
+							        <ul class="menu" style="display:none" >
+							        	<li id="employeetransactiondata">
+											<a href='<%= ResolveUrl("~/ui/transaction/employee/employee_data_transaction.aspx") %>'> Employee Transaction</a>
+										</li>
+										<%--<li id="Li2">
+											
+											<a href='<%= ResolveUrl("~/ui/transaction/demo.aspx") %>'> Demo </a>
+											
+										</li>--%>
+							        </ul>
+								</div>
+								<!-- /.menu-popout -->
+							<!-- END OF SUB MENU -->
+						</li>
+						<li>
+							<a href="javascript:void(0);">
+								<p class="menu-text"><span class="fa fa-user menu-icon"></span> USER</p>
+							</a>
+							<!-- BEGIN SUB MENU -->
+								<div class="menu-popout">
+									<ul class="menu" style="margin-top: 260px;">
+										<li>
+											<a href='<%= ResolveUrl("~/ui/user/account.aspx") %>'>Account</a>
+										</li>
+										<li>
+											<a href='<%= ResolveUrl("~/ui/user/permissions.aspx") %>'>Access Permissions</a>
+										</li>
+										<!-- <li>
+											<a href='<%= ResolveUrl("~/ui/user/notifications.aspx") %>'>Notifications</a>
+										</li> -->
+									</ul>
+									<!-- /.menu -->
+								</div>
+							<!-- END OF SUB MENU -->
+						</li>
+						<li>
+							<a href="javascript:void(0);">
+								<p class="menu-text"><span class="fa fa-bar-chart menu-icon"></span> REPORTS</p>
+							</a>
+							<!-- BEGIN SUB MENU -->
+								<div class="menu-popout">
+									<h4 class="menu-heading">DAILY REPORTS</h4>
+									<ul class="menu">
+										<li id="dailyPerformanceReport">
+								        	<a href='<%= ResolveUrl("~/ui/reporting/daily/performance_report.aspx") %>'>Daily Performance Report</a>
+							        	</li>
+								        <li id="dailyAttendanceReport">
+								        	<a href='<%= ResolveUrl("~/ui/reporting/daily/attendance_report.aspx") %>'>Daily Attendance Report</a>
+							        	</li>
+							        	<li id="dailyPayrollReport">
+								        	<a href='<%= ResolveUrl("~/ui/reporting/daily/payroll_report.aspx") %>'>Daily Payroll Report</a>
+							        	</li>
+							        	<li id="dailyEmployeePunchReport">
+								        	<a href='<%= ResolveUrl("~/ui/reporting/daily/punch_report.aspx") %>'>Daily Employee Punch Report</a>
+							        	</li>
+							        	<li id="lateComersReport">
+								        	<a href='<%= ResolveUrl("~/ui/reporting/daily/late_comers_report.aspx") %>'>Late Comers Report</a>
+								        </li>
+								        <li id="missingSwipeReport">
+								        	<a href='<%= ResolveUrl("~/ui/reporting/daily/missing_swipe_report.aspx") %>'>Missing Swipe Report</a>
+							        	</li>
+							        	<li id="nInOutReport">
+								        	<a href='<%= ResolveUrl("~/ui/reporting/daily/performance_in_out_report.aspx") %>'>Performance In Out Report</a>
+							        	</li>
+								        
+								        <!-- <li id="dailyOvertimeReport">
+								        	<a href='<%= ResolveUrl("~/ui/reporting/daily/overtime_report.aspx") %>'>Daily Overtime Report</a>
+							        	</li> 
+								        
+								        
+								        <li id="earlyLeaversReport">
+								        	<a href='<%= ResolveUrl("~/ui/reporting/daily/early_leavers_product.aspx") %>'>Early Leavers</a>
+							        	</li>
+								        
+								        <li id="onDutyReport">
+								        	<a href='<%= ResolveUrl("~/ui/reporting/daily/on_duty_report.aspx") %>'>On Duty Report</a>
+							        	</li>
+								        <li id="payrollReport">
+								        	<a href='<%= ResolveUrl("~/ui/reporting/daily/payroll_report.aspx") %>'>Payroll Report</a>
+							        	</li>
+								        <li id="breakReport">
+								        	<a href='<%= ResolveUrl("~/ui/reporting/daily/break_report.aspx") %>'>Break Report</a>
+							        	</li>
+								        <li id="5InOutReport">
+								        	<a href='<%= ResolveUrl("~/ui/reporting/daily/per_in_out_report.aspx") %>'>5-IN-OUT Report</a>
+							        	</li>
+								         -->
+									</ul>
+									
+									
+									<!-- /.menu -->
+									<h4 class="menu-heading">MONTHLY REPORTS</h4>
+									<ul class="menu">
+										<li id="detailedMonthlyReport">
+								        	<a href='<%= ResolveUrl("~/ui/reporting/monthly/detailed_report.aspx") %>'>Detailed Monthly Report</a>
+							        	</li>
+								        <li id="monthlyOvertimeReport">
+								        	<a href='<%= ResolveUrl("~/ui/reporting/monthly/overtime_report.aspx") %>'>Monthly Overtime Report</a>
+							        	</li>
+							        	<li id="musterRollReport">
+								        	<a href='<%= ResolveUrl("~/ui/reporting/monthly/muster_roll_report.aspx") %>'>MusterRoll Report</a>
+							        	</li>
+							        	<li id="payrollLinkReport">
+								        	<a href='<%= ResolveUrl("~/ui/reporting/monthly/payroll_link_report.aspx") %>'>Payroll Link Report</a>
+							        	</li>
+							        	
+							        	<li style="display:none" >
+							               <a href='<%= ResolveUrl("~/ui/reporting/monthly/leave_report.aspx") %>'>Leave Report </a>
+							        	</li>
+								        <!-- 
+							        	<li id="musterRollRawReport">
+							        		<a href='<%= ResolveUrl("~/ui/reporting/monthly/muster_roll_raw_report.aspx") %>'>MusterRoll Raw Report</a>
+						        		</li>
+								        <li id="shiftRosterReport">
+								        	<a href='<%= ResolveUrl("~/ui/reporting/monthly/shift_report.aspx") %>'>Shift Roster Report</a>
+							        	</li>-->
+									</ul> 
+									<!-- /.menu -->
+									 <h4 class="menu-heading">EMPLOYEE REPORTS</h4>
+									<ul class="menu">
+									<li id="leaveCard">
+								      <a href='<%= ResolveUrl("~/ui/reporting/employee/leave_card.aspx") %>'>Leave Card</a>
+								   	</li>
+						                <li id="leaveRegister">
+						                	<a href='<%= ResolveUrl("~/ui/reporting/employee/leave_register.aspx") %>'>Leave Register</a>
+					                	</li>
+								       <!--- <li id="employeeList">
+								        	<a href='<%= ResolveUrl("~/ui/reporting/employee/list_report.aspx") %>'>Employee List</a>
+							        	</li>
+							        	
+								        
+						                <li id="rosterTemplate">
+						                	<a href='<%= ResolveUrl("~/ui/reporting/employee/roster_template_report.aspx") %>'>Roster Template</a>
+					                	</li>---->
+									</ul> 
+									<!-- /.menu -->
+									
+									
+								</div>
+							<!-- END OF SUB MENU -->
+						
+						</li>
+							
+					</ul>
+					
+					
+					
+				</div>
+				
+				<!-- /.sidebar -->
+			</section>
+			<!-- /#saxPageSidebar -->
+			<section id="saxPageTitleBar">
+				<asp:ContentPlaceHolder id="saxMasterPageTitle" runat="server"></asp:ContentPlaceHolder>
+			</section>
+			<!-- /#saxPageTitleBar -->
+			<section id="saxPageContent">
+				<div class="content">
+					<asp:ContentPlaceHolder id="saxMasterPageContent" runat="server"></asp:ContentPlaceHolder>
+				</div>
+			</section>
+		</section>
+		<!-- loading scripts -->
+				<script type="text/javascript">
+		if (sessvars.TAMS_ENV.user_details.user_name == "admin") {
+			$(".sidebar > .menu").show();
+		}
+		else {
+			$(".sidebar > .menu").empty().show().append(sessvars.TAMS_ENV.menu);
+		}
+		</script>
+		<script type="text/javascript" src='<%= ResolveUrl("~/resources/lib/underscore.min.js?v=") + Session["version"].ToString() %>'></script>
+		<script type="text/javascript" src='<%= ResolveUrl("~/resources/lib/bootstrap.min.js?v=001") %>'></script>
+		<script type="text/javascript" src='<%= ResolveUrl("~/resources/lib/common.js?v=001") %>'></script>
+		<script type="text/javascript" src='<%= ResolveUrl("~/resources/lib/master.js") %>'></script>
+        <!-- page specific scripts -->
+        <asp:ContentPlaceHolder id="saxMasterPageFooter" runat="server"></asp:ContentPlaceHolder>
+	</body>
+</html>

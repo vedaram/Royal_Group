@@ -1,0 +1,1 @@
+alter table Dailyreporttable123_Reporting add EmployeeCategory  varchar(100)

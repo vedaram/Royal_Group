@@ -1,0 +1,1 @@
+alter table Dailyreporttable123_Reporting alter column breaktimeint varchar(50)

@@ -1,0 +1,1 @@
+alter table DailyEmployeePunchReport add EmployeeCategory  varchar(100)

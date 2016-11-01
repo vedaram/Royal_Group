@@ -1,0 +1,1 @@
+alter table punchforapproval add Hr_approval int default 0,manager_approval int default 1

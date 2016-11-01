@@ -1,0 +1,9 @@
+********** 9/20/2016 5:51:46 PM **********
+Exception Type: System.Exception
+Exception: Extension '' is not supported. Supported extensions are '.xlsx' and '.xslm'.
+Source: IMPORT_MASTERS
+Source: DO_IMPORT
+Stack Trace: 
+   at SecurAX.Import.Excel.ExcelImport.ImportExcelToDataTable(String file_name, String sheet_name) in e:\RG\Royal_group\app_code\ExcelImport.cs:line 69
+   at masters_import_masters.DoImport(String file_name) in e:\RG\Royal_group\ui\company\masters\import_masters.aspx.cs:line 1846
+

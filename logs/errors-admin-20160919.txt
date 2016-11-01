@@ -1,0 +1,557 @@
+********** 9/19/2016 5:15:03 PM **********
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Unexpected JSON token when reading DataTable: StartObject. Path 'shiftData[0].id', line 1, position 56.
+Source: MANAGE_EMPLOYEE
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Converters.DataTableConverter.GetColumnDataType(JsonReader reader)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at masters_manage_employee.saveEmployeeTransactionData(String returndataset) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 114
+
+********** 9/19/2016 5:15:03 PM **********
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Unexpected JSON token when reading DataTable: StartObject. Path 'shiftData[0].id', line 1, position 56.
+Source: MANAGE_EMPLOYEE
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Converters.DataTableConverter.GetColumnDataType(JsonReader reader)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at masters_manage_employee.saveEmployeeTransactionData(String returndataset) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 229
+   at masters_manage_employee.addEmployeeTransaction(String current) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 265
+
+********** 9/19/2016 5:18:16 PM **********
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Unexpected JSON token when reading DataTable: StartObject. Path 'shiftData[0].id', line 1, position 56.
+Source: MANAGE_EMPLOYEE
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Converters.DataTableConverter.GetColumnDataType(JsonReader reader)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at masters_manage_employee.saveEmployeeTransactionData(String returndataset) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 114
+
+********** 9/19/2016 5:18:16 PM **********
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Unexpected JSON token when reading DataTable: StartObject. Path 'shiftData[0].id', line 1, position 56.
+Source: MANAGE_EMPLOYEE
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Converters.DataTableConverter.GetColumnDataType(JsonReader reader)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at masters_manage_employee.saveEmployeeTransactionData(String returndataset) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 229
+   at masters_manage_employee.addEmployeeTransaction(String current) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 265
+
+********** 9/19/2016 5:23:02 PM **********
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Unexpected JSON token when reading DataTable: StartObject. Path 'shiftData[0].id', line 1, position 56.
+Source: MANAGE_EMPLOYEE
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Converters.DataTableConverter.GetColumnDataType(JsonReader reader)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at masters_manage_employee.saveEmployeeTransactionData(String returndataset) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 114
+
+********** 9/19/2016 5:23:03 PM **********
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Unexpected JSON token when reading DataTable: StartObject. Path 'shiftData[0].id', line 1, position 56.
+Source: MANAGE_EMPLOYEE
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Converters.DataTableConverter.GetColumnDataType(JsonReader reader)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at masters_manage_employee.saveEmployeeTransactionData(String returndataset) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 229
+   at masters_manage_employee.addEmployeeTransaction(String current) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 265
+
+********** 9/19/2016 5:24:38 PM **********
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Unexpected JSON token when reading DataTable: StartObject. Path 'shiftData[0].id', line 1, position 56.
+Source: MANAGE_EMPLOYEE
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Converters.DataTableConverter.GetColumnDataType(JsonReader reader)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at masters_manage_employee.saveEmployeeTransactionData(String returndataset) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 114
+
+********** 9/19/2016 5:24:38 PM **********
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Unexpected JSON token when reading DataTable: StartObject. Path 'shiftData[0].id', line 1, position 56.
+Source: MANAGE_EMPLOYEE
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Converters.DataTableConverter.GetColumnDataType(JsonReader reader)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at masters_manage_employee.saveEmployeeTransactionData(String returndataset) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 229
+   at masters_manage_employee.addEmployeeTransaction(String current) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 265
+
+********** 9/19/2016 5:27:35 PM **********
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Unexpected JSON token when reading DataTable: StartObject. Path 'shiftData[0].id', line 1, position 56.
+Source: MANAGE_EMPLOYEE
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Converters.DataTableConverter.GetColumnDataType(JsonReader reader)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at masters_manage_employee.saveEmployeeTransactionData(String returndataset) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 114
+
+********** 9/19/2016 5:27:35 PM **********
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Unexpected JSON token when reading DataTable: StartObject. Path 'shiftData[0].id', line 1, position 56.
+Source: MANAGE_EMPLOYEE
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Converters.DataTableConverter.GetColumnDataType(JsonReader reader)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at masters_manage_employee.saveEmployeeTransactionData(String returndataset) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 229
+   at masters_manage_employee.addEmployeeTransaction(String current) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 265
+
+********** 9/19/2016 5:28:04 PM **********
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Unexpected JSON token when reading DataTable: StartObject. Path 'shiftData[0].id', line 1, position 56.
+Source: MANAGE_EMPLOYEE
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Converters.DataTableConverter.GetColumnDataType(JsonReader reader)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at masters_manage_employee.saveEmployeeTransactionData(String returndataset) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 114
+
+********** 9/19/2016 5:28:04 PM **********
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Unexpected JSON token when reading DataTable: StartObject. Path 'shiftData[0].id', line 1, position 56.
+Source: MANAGE_EMPLOYEE
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Converters.DataTableConverter.GetColumnDataType(JsonReader reader)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at masters_manage_employee.saveEmployeeTransactionData(String returndataset) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 229
+   at masters_manage_employee.addEmployeeTransaction(String current) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 265
+
+********** 9/19/2016 5:32:02 PM **********
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Unexpected JSON token when reading DataTable: StartObject. Path 'shiftData[0].id', line 1, position 56.
+Source: MANAGE_EMPLOYEE
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Converters.DataTableConverter.GetColumnDataType(JsonReader reader)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at masters_manage_employee.saveEmployeeTransactionData(String returndataset) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 114
+
+********** 9/19/2016 5:32:02 PM **********
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Unexpected JSON token when reading DataTable: StartObject. Path 'shiftData[0].id', line 1, position 56.
+Source: MANAGE_EMPLOYEE
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Converters.DataTableConverter.GetColumnDataType(JsonReader reader)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at masters_manage_employee.saveEmployeeTransactionData(String returndataset) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 229
+   at masters_manage_employee.addEmployeeTransaction(String current) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 265
+
+********** 9/19/2016 5:34:46 PM **********
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Unexpected JSON token when reading DataTable: StartObject. Path 'shiftData[0].id', line 1, position 56.
+Source: MANAGE_EMPLOYEE
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Converters.DataTableConverter.GetColumnDataType(JsonReader reader)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at masters_manage_employee.saveEmployeeTransactionData(String returndataset) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 114
+
+********** 9/19/2016 5:34:46 PM **********
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Unexpected JSON token when reading DataTable: StartObject. Path 'shiftData[0].id', line 1, position 56.
+Source: MANAGE_EMPLOYEE
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Converters.DataTableConverter.GetColumnDataType(JsonReader reader)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at masters_manage_employee.saveEmployeeTransactionData(String returndataset) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 229
+   at masters_manage_employee.addEmployeeTransaction(String current) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 265
+
+********** 9/19/2016 5:39:28 PM **********
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Unexpected JSON token when reading DataTable: StartObject. Path 'shiftData[0].id', line 1, position 56.
+Source: MANAGE_EMPLOYEE
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Converters.DataTableConverter.GetColumnDataType(JsonReader reader)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at masters_manage_employee.saveEmployeeTransactionData(String returndataset) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 114
+
+********** 9/19/2016 5:39:28 PM **********
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Unexpected JSON token when reading DataTable: StartObject. Path 'shiftData[0].id', line 1, position 56.
+Source: MANAGE_EMPLOYEE
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Converters.DataTableConverter.GetColumnDataType(JsonReader reader)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at masters_manage_employee.saveEmployeeTransactionData(String returndataset) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 229
+   at masters_manage_employee.addEmployeeTransaction(String current) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 265
+
+********** 9/19/2016 5:48:53 PM **********
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Unexpected JSON token when reading DataTable: StartObject. Path 'shiftData[0].id', line 1, position 56.
+Source: MANAGE_EMPLOYEE
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Converters.DataTableConverter.GetColumnDataType(JsonReader reader)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at masters_manage_employee.saveEmployeeTransactionData(String returndataset) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 114
+
+********** 9/19/2016 5:49:34 PM **********
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Unexpected JSON token when reading DataTable: StartObject. Path 'shiftData[0].id', line 1, position 56.
+Source: MANAGE_EMPLOYEE
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Converters.DataTableConverter.GetColumnDataType(JsonReader reader)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at masters_manage_employee.saveEmployeeTransactionData(String returndataset) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 229
+   at masters_manage_employee.addEmployeeTransaction(String current) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 265
+
+********** 9/19/2016 5:54:36 PM **********
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Unexpected JSON token when reading DataTable: StartObject. Path 'shiftData[0].id', line 1, position 59.
+Source: MANAGE_EMPLOYEE
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Converters.DataTableConverter.GetColumnDataType(JsonReader reader)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at masters_manage_employee.saveEmployeeTransactionData(String returndataset) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 114
+
+********** 9/19/2016 5:54:36 PM **********
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Unexpected JSON token when reading DataTable: StartObject. Path 'shiftData[0].id', line 1, position 59.
+Source: MANAGE_EMPLOYEE
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Converters.DataTableConverter.GetColumnDataType(JsonReader reader)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at masters_manage_employee.saveEmployeeTransactionData(String returndataset) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 229
+   at masters_manage_employee.addEmployeeTransaction(String current) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 265
+
+********** 9/19/2016 5:55:46 PM **********
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Unexpected JSON token when reading DataTable: StartObject. Path 'workhourperday[0].id', line 1, position 120.
+Source: MANAGE_EMPLOYEE
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Converters.DataTableConverter.GetColumnDataType(JsonReader reader)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at masters_manage_employee.saveEmployeeTransactionData(String returndataset) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 114
+
+********** 9/19/2016 5:55:46 PM **********
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Unexpected JSON token when reading DataTable: StartObject. Path 'workhourperday[0].id', line 1, position 120.
+Source: MANAGE_EMPLOYEE
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Converters.DataTableConverter.GetColumnDataType(JsonReader reader)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at masters_manage_employee.saveEmployeeTransactionData(String returndataset) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 229
+   at masters_manage_employee.addEmployeeTransaction(String current) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 265
+
+********** 9/19/2016 6:11:38 PM **********
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Unexpected JSON token when reading DataTable: StartObject. Path 'shiftData[0].id', line 1, position 59.
+Source: MANAGE_EMPLOYEE
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Converters.DataTableConverter.GetColumnDataType(JsonReader reader)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at masters_manage_employee.saveEmployeeTransactionData(String returndataset) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 114
+
+********** 9/19/2016 6:11:38 PM **********
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Unexpected JSON token when reading DataTable: StartObject. Path 'shiftData[0].id', line 1, position 59.
+Source: MANAGE_EMPLOYEE
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Converters.DataTableConverter.GetColumnDataType(JsonReader reader)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at masters_manage_employee.saveEmployeeTransactionData(String returndataset) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 229
+   at masters_manage_employee.addEmployeeTransaction(String current) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 265
+
+********** 9/19/2016 6:12:48 PM **********
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Unexpected JSON token when reading DataTable: StartObject. Path 'shiftData[0].id', line 1, position 59.
+Source: MANAGE_EMPLOYEE
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Converters.DataTableConverter.GetColumnDataType(JsonReader reader)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at masters_manage_employee.saveEmployeeTransactionData(String returndataset) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 114
+
+********** 9/19/2016 6:12:48 PM **********
+Exception Type: Newtonsoft.Json.JsonSerializationException
+Exception: Unexpected JSON token when reading DataTable: StartObject. Path 'shiftData[0].id', line 1, position 59.
+Source: MANAGE_EMPLOYEE
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at Newtonsoft.Json.Converters.DataTableConverter.GetColumnDataType(JsonReader reader)
+   at Newtonsoft.Json.Converters.DataTableConverter.CreateRow(JsonReader reader, DataTable dt, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataTableConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Converters.DataSetConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.DeserializeConvertable(JsonConverter converter, JsonReader reader, Type objectType, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at masters_manage_employee.saveEmployeeTransactionData(String returndataset) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 229
+   at masters_manage_employee.addEmployeeTransaction(String current) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 265
+
+********** 9/19/2016 8:51:36 PM **********
+Exception Type: System.UnauthorizedAccessException
+Exception: Access to the path 'C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\LogFile_19092016.txt' is denied.
+Source: MANAGE_EMPLOYEE
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at masters_manage_employee.createlogfile(String data) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 93
+   at masters_manage_employee.saveEmployeeTransactionData(String returndataset) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 103
+   at masters_manage_employee.addEmployeeTransaction(String current) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 275
+
+********** 9/19/2016 8:52:30 PM **********
+Exception Type: System.UnauthorizedAccessException
+Exception: Access to the path 'C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\LogFile_19092016.txt' is denied.
+Source: MANAGE_EMPLOYEE
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at masters_manage_employee.createlogfile(String data) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 93
+   at masters_manage_employee.saveEmployeeTransactionData(String returndataset) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 103
+   at masters_manage_employee.addEmployeeTransaction(String current) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 275
+
+********** 9/19/2016 8:53:13 PM **********
+Exception Type: System.UnauthorizedAccessException
+Exception: Access to the path 'C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\LogFile_19092016.txt' is denied.
+Source: MANAGE_EMPLOYEE
+Source: ADD_EMPLOYEE
+Stack Trace: 
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at masters_manage_employee.createlogfile(String data) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 93
+   at masters_manage_employee.saveEmployeeTransactionData(String returndataset) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 103
+   at masters_manage_employee.addEmployeeTransaction(String current) in e:\RG\Royal_group\ui\company\masters\manage_employee.aspx.cs:line 275
+

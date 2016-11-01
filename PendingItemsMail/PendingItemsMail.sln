@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PendingItemsMail", "PendingItemsMail\PendingItemsMail.csproj", "{8794D5F8-435F-4786-AE10-9A1E9337EC10}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PendingItemsMailSetup", "PendingItemsMailSetup\PendingItemsMailSetup.vdproj", "{A5A44A3A-FFC1-48EA-BEC3-60CEE94CDDF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8794D5F8-435F-4786-AE10-9A1E9337EC10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8794D5F8-435F-4786-AE10-9A1E9337EC10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8794D5F8-435F-4786-AE10-9A1E9337EC10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8794D5F8-435F-4786-AE10-9A1E9337EC10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5A44A3A-FFC1-48EA-BEC3-60CEE94CDDF1}.Debug|Any CPU.ActiveCfg = Debug
+		{A5A44A3A-FFC1-48EA-BEC3-60CEE94CDDF1}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

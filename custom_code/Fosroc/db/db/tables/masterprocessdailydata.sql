@@ -1,0 +1,1 @@
+alter table masterprocessdailydata add  deductleaveflag int

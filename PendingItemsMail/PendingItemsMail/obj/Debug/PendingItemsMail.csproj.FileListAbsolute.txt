@@ -1,0 +1,10 @@
+F:\2.5.7\Pending\PendingItemsMail\PendingItemsMail\PendingItemsMail\obj\Debug\ResolveAssemblyReference.cache
+F:\2.5.7\Pending\PendingItemsMail\PendingItemsMail\PendingItemsMail\bin\Debug\PendingItemsMail.exe
+F:\2.5.7\Pending\PendingItemsMail\PendingItemsMail\PendingItemsMail\bin\Debug\PendingItemsMail.pdb
+F:\2.5.7\Pending\PendingItemsMail\PendingItemsMail\PendingItemsMail\obj\Debug\PendingItemsMail.exe
+F:\2.5.7\Pending\PendingItemsMail\PendingItemsMail\PendingItemsMail\obj\Debug\PendingItemsMail.pdb
+D:\SecurAX Projects\RG\PendingItemsMail\PendingItemsMail\obj\Debug\PendingItemsMail.exe
+D:\SecurAX Projects\RG\PendingItemsMail\PendingItemsMail\obj\Debug\PendingItemsMail.pdb
+D:\SecurAX Projects\RG\PendingItemsMail\PendingItemsMail\obj\Debug\ResolveAssemblyReference.cache
+D:\SecurAX Projects\RG\PendingItemsMail\PendingItemsMail\bin\Debug\PendingItemsMail.exe
+D:\SecurAX Projects\RG\PendingItemsMail\PendingItemsMail\bin\Debug\PendingItemsMail.pdb

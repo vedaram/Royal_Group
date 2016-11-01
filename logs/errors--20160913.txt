@@ -1,0 +1,48 @@
+********** 9/13/2016 12:00:36 AM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: PAGE_LOAD
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at employee_data_transaction.Page_Load(Object sender, EventArgs e) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 44
+
+********** 9/13/2016 11:32:42 AM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: REPROCESS_DATA
+Source: PAGE_LOAD
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at attendance_reprocess.Page_Load(Object sender, EventArgs e) in h:\RG Final\Royal_group\ui\attendance\reprocess.aspx.cs:line 34
+
+********** 9/13/2016 5:37:31 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: PAGE_LOAD
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at employee_data_transaction.Page_Load(Object sender, EventArgs e) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 44
+
+********** 9/13/2016 6:59:30 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: EMPLOYEE_DATA_TRANSACTION
+Source: PAGE_LOAD
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at employee_data_transaction.Page_Load(Object sender, EventArgs e) in h:\RG Final\Royal_group\ui\transaction\employee\employee_data_transaction.aspx.cs:line 44
+

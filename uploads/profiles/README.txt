@@ -1,0 +1,1 @@
+Display pictures imported by users will be contained in this folder.
